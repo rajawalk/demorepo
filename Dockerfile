@@ -1,4 +1,5 @@
 FROM komljen/nodejs
+FROM rajawalk/demo
 MAINTAINER Alen Komljen <alen.komljen@live.com>
 
 ENV GHOST_VERSION 0.5.7
