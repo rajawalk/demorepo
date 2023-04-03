@@ -17,7 +17,7 @@ resource "aws_internet_gateway" "main" {
     managed-by = "terraform"
   }
 }
-
+//edit one
 resource "aws_route_table" "public" {
   vpc_id = aws_vpc.main.id
 
